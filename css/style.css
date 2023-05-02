@@ -1,0 +1,104 @@
+	*{
+		margin:0;
+		padding:0;
+		box-sizing:border-box;
+	}
+	
+	.main_container{
+		display:flex;
+	justify-content:space-around;
+	height:30px;
+	margin-top:30px;}
+	
+	.drop_one{
+	 display:none;
+    box-shadow: #0000004f 0px 0px 6px;
+    border-radius: 5px;
+	}
+	
+	.sign{
+	padding: 10px;
+
+	}
+	
+	.sign a{
+			text-decoration:none;
+	color:black}
+	
+	.setting {
+		margin-top:10px;
+		border-top:1px solid;
+		padding: 10px;
+	}
+	
+	p{
+			padding: 10px;
+	}
+	
+	 .p{
+			margin-top:10px;
+		border-top:1px solid;
+	padding: 10px;}
+	
+	.dropdown_one:hover .drop_one{
+		display:block;
+		position:absolute
+
+	}
+	
+	.option{
+		display:flex;
+	align-items:center;
+	    padding: 5px;
+    gap: 5px;}
+	
+	
+	.one{
+	padding:10px}
+	
+	.two{
+		padding:10px;
+	border-top:1px solid;}
+		
+	.three{
+		padding:10px;
+	border-top:1px solid;}
+
+	.four{
+		padding:10px;
+	border-top:1px solid;}	
+	
+		.drop_two{
+			display:none;
+    box-shadow: #0000004f 0px 0px 6px;
+    border-radius: 5px;
+	}
+	
+		.dropdown_two:hover .drop_two{
+		display:block;
+		position:absolute}
+		
+	.drop_two p{
+    display: flex;
+    align-items: center;}		
+		
+	
+		.dropdown_three:hover .drop_one{
+		display:block;
+		position:absolute
+
+	}
+			 .p_2{
+
+	padding: 10px;}
+	
+			.dropdown_four:hover .drop_two{
+		display:block;
+		position:absolute}
+		
+					.dropdown_five:hover .drop_one{
+		display:block;
+		position:absolute}
+		
+		
+		
